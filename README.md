@@ -6,17 +6,17 @@ Feel free to fork this repo as a starting point which handles the basic plumbing
 
 ## The Game
 
-Your bot will face off against another for a game of Rock, Paper, Scissors with a twist.  The basic rules are simple:
+Your bot will face off against another for a game of Rock, Paper, Scissors with a twist.
 
-**Rock** beats **scissors**, **scissors** beat **paper**, and **paper** beats **rock**.
+The basic rules are simple: **rock** beats **scissors**, **scissors** beat **paper**, and **paper** beats **rock**.
 
-**Dynamite** beats all of the classic moves.  **Waterbomb** beats **dynamite**, but _loses_ to all of the classic moves.
+The twist, however, is that  **dynamite** beats all of the classic moves.  **Waterbomb** beats **dynamite**, but _loses_ to all of the classic moves.
 
 A game will run for many rounds, and the first player to win enough points (1000 by default) wins the game.
 
 You have a limited supply of dynamite (100 by default).  If you try to throw dynamite after you've run out, you'll throw a waterbomb instead.
 
-Points from draws are carried over to the next round.  So for example if you and your opponent had both played ROCK twice in a row, then next round is worth three points.
+Points from draws are carried over to the next round.  So for example if you and your opponent had both played ROCK twice in a row, then the next round is worth three points.
 
 ## The API
 
