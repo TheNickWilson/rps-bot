@@ -7,4 +7,8 @@ class MoveController extends Controller {
   def move() = Action {
     Ok(Json.toJson("ROCK"))
   }
+
+  def lastOpponentMove() = Action {
+    Ok
+  }
 }
