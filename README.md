@@ -1,6 +1,6 @@
 # rps-bot
 
-A very basic reference implementation of a Rock, Paper, Scissors (Dynamite, Waterbomb) bot.
+A very basic reference implementation of a Rock, Paper, Scissors (Dynamite, Waterbomb) bot.  This version always plays ROCK and doesn't track anything at all about its opponent.
 
 Feel free to fork this repo as a starting point which handles the basic plumbing for you, and bring your own functionality!
 
