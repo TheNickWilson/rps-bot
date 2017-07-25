@@ -12,7 +12,7 @@ class StartControllerSpec extends PlaySpec with GuiceOneAppPerTest {
     "return 200 for a POST" in {
       val json =
         """{
-          | "lastOpponentMove": "PAPER",
+          | "opponentName": "ABC123",
           | "pointsToWin": 1000,
           | "maxRounds": 2000,
           | "dynamiteCount": 100
